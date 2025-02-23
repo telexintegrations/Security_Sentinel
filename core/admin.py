@@ -8,3 +8,7 @@ from .models import SecurityEvent
 
 
 # Register your models here.
+admin.site.register(CoreIntegration)
+admin.site.register(SecurityIntegration)
+admin.site.register(VulnerabilityScan)
+admin.site.register(SecurityEvent)
